@@ -1,0 +1,4 @@
+{
+  "testRepo": "split-screen-styling-solution",
+  "pathToFile": "cypress/integration/tests/test.spec.js"
+}
