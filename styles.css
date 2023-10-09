@@ -1,1 +1,40 @@
 /*  your css code here. If applicable */
+#grid{
+	display:grid;
+	width:100vw;
+	height:100vh;
+	grid-template-columns:1fr 5fr 1fr;
+	grid-template-rows:1fr 6fr 1fr;
+	background-color:white;
+	grid-template-areas:
+		"n h h"
+		"n a s"
+		"n f f"
+	
+}
+#Nav{
+	grid-area:n;
+	background-color:#D7E8D4;
+	
+}
+
+#Header{
+	grid-area:h;
+	background-color:yellowgreen;
+	
+}
+#article{
+	grid-area:a;
+	background-color:#D7E8D4;
+	
+}
+#aside{
+	grid-area:s;
+	background-color:#F5F5DC;
+	
+}
+#Footer{
+	grid-area:f;
+	background-color:yellowgreen;
+	
+}
