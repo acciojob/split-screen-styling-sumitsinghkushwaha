@@ -12,15 +12,15 @@
 		"n f f"
 	
 }
-#Nav{
+#nav{
 	grid-area:n;
 	background-color:#D7E8D4;
 	
 }
 
-#Header{
+#header{
 	grid-area:h;
-	background-color:yellowgreen;
+	background-color:rgb(154, 205, 50);
 	
 }
 #article{
